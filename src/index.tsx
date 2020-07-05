@@ -110,7 +110,7 @@ export class Upload extends React.Component<UploadProps> {
 
 		const items = e.target.files || [];
 		const files: RWFile[] = [];
-		const fileLen = Math.max(maxFiles!, items.length);
+		const fileLen = Math.min(maxFiles!, items.length);
 
 		for (let i = 0; i < fileLen; i++) {
 			files.push(items[i]);
@@ -187,7 +187,7 @@ export class Upload extends React.Component<UploadProps> {
 				}
 			});
 		} else {
-			const fileLen = Math.max(maxFiles!, items.length);
+			const fileLen = Math.min(maxFiles!, items.length);
 			for (let i = 0; i < fileLen; i++) {
 				files.push(items[i]);
 			}

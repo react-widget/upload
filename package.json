@@ -1,6 +1,6 @@
 {
 	"name": "react-widget-upload",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "react-widget-upload",
 	"main": "cjs/index.js",
 	"module": "esm/index.js",
