@@ -1,0 +1,6 @@
+{
+	"name": "react-widget-upload/style",
+	"private": true,
+	"main": "../cjs/style/index.js",
+	"module": "../esm/style/index.js"
+}

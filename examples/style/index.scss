@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.slider {
+    width: 200px;
+    border-right: 1px solid #f2f2fe;
+    > div {
+        padding: 10px;
+        border-bottom: 1px solid #f2f2fe;
+        cursor: pointer;
+    }
+
+    .active {
+        background: #3399ff;
+        color: #fff;
+    }
+}
+
+.content {
+    overflow: auto;
+    padding: 10px;
+
+    flex: 1;
+}
+
+.upload-test {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.upload1 {
+    border: 2px dashed rgb(236, 236, 236);
+    border-radius: 5px;
+    height: 100px;
+    line-height: 96px;
+    position: relative;
+    text-align: center;
+}
+
+.tips {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 30px;
+}
+
+.upload2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.upload2 button {
+    width: 100%;
+    padding: 8px;
+}
